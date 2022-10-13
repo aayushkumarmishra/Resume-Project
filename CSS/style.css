@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+
+/* set background image*/
+#body-header{
+
+    height: 60vh;
+    background-image: url(../img/img-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* edit list */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+/* make list inline-block */
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+/* set colour of ancor tag */
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.5s, border-bottom 2s;
+}
+
+.horizontal-list li a:hover{
+    color: aquamarine;
+    border-bottom: 1px solid black;
+}
+
+/* text center */
+.text-center{
+    text-align: center;
+}
