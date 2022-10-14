@@ -6,16 +6,18 @@ body{
 #body-header{
 
     height: 60vh;
-    background-image: url(../img/img-2.jpg);
+    background-image: url(../img/img-4.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding-top: 1.2rem;
 }
 
 /* edit list */
 .horizontal-list{
     list-style: none;
     padding-left: 0px;
+    margin: 0px;
 }
 
 /* make list inline-block */
@@ -27,18 +29,46 @@ body{
 
 /* set colour of ancor tag */
 .horizontal-list li a{
-    color: white;
+    color: aquamarine;
     text-decoration: none;
     font-size: 20px;
+}
+
+.nav-menu li a{
     transition: color 0.5s, border-bottom 2s;
 }
 
-.horizontal-list li a:hover{
-    color: aquamarine;
+.nav-menu li a:hover{
+    color: palevioletred;
     border-bottom: 1px solid black;
 }
 
 /* text center */
 .text-center{
     text-align: center;
+}
+
+/* Name and social Icons */
+
+#name-social-container{
+    margin-top: 20vh;
+}
+
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: lightgray;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.2);
+    
 }
